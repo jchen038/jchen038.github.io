@@ -10,7 +10,7 @@ Bootstrap3
 ###Start####
 
 ```
-bundle install
 gem install jekyll
+bundle install
 jekyll serve
 ```
