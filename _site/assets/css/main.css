@@ -81,13 +81,40 @@ ul {
 }
 
 img.image-large {
-  max-width: 1080px;
-  max-height: 1080px;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 .modal-dialog {
   position: absolute;
   top: 10%;
   left: 20%;
+  min-width: 80%;
+  min-height: 80%;
   margin: auto auto !important;
+}
+
+.modal-content {
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  -webkit-box-shadow: 0 0 0;
+  border: 0;
+}
+
+.close {
+  position: absolute;
+  float: none;
+  color: white;
+  opacity: .5;
+  font-size: 28px;
+  left: 3px;
+}
+
+.close:hover {
+  color: white;
+  opacity: .75;
+}
+
+button:focus {
+  outline: none;
 }

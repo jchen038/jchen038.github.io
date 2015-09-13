@@ -4,7 +4,7 @@ $(document).ready(function() {
                     'IMG_7634', 'IMG_8126'];
   $.each(imageList, function(index, value) {
     $("#photography").append("<button class='image-small' data-toggle='modal' data-target='#" + value + "'><img class='image-small' src='/assets/image/" + value + ".jpg'></button>");
-    $("#photography").append("<div class='modal fade' id='" + value + "' tabindex='-1' role='dialog'><div class='modal-dialog'><div class='modal-content'><img class='image-large' src='/assets/image/" + value + ".jpg'></div></div></img></div>");
+    $("#photography").append("<div class='modal fade' id='" + value + "' tabindex='-1' role='dialog'><div class='modal-dialog'><div class='modal-content'><button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button><img class='image-large' src='/assets/image/" + value + ".jpg'></div></div></img></div>");
     $("#modal" + value).focus();
   });
 });
