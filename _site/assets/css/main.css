@@ -66,3 +66,28 @@ ul {
   max-height: 25px;
   max-width: 25px;
 }
+
+#photography button.image-small {
+  padding: 0px;
+  border: 0px;
+  background-color: white;
+}
+
+#photography button.image-small img.image-small {
+  max-width: 300px;
+  max-height: 300px;
+  float: left;
+  margin: 10px 10px;
+}
+
+img.image-large {
+  max-width: 1080px;
+  max-height: 1080px;
+}
+
+.modal-dialog {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  margin: auto auto !important;
+}
