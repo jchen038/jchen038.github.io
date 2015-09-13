@@ -87,7 +87,7 @@ img.image-large {
 
 .modal-dialog {
   position: absolute;
-  top: 25%;
+  top: 10%;
   left: 20%;
   margin: auto auto !important;
 }
