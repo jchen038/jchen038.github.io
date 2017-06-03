@@ -1,7 +1,7 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Link } from 'react-router-dom';
-import { Code } from '../styles/style';
+import { Main } from '../styles/style';
 import s from '../styles/home.style';
 
 export default function Home() {
@@ -77,7 +77,7 @@ export default function Home() {
               <h4>University of California, Riverside</h4>
               <h5>Sept 2013</h5>
               <p>B.A., Economics</p>
-              <p>Field of Study - Economics, Computer Scie</p>
+              <p>Field of Study - Economics, Computer Science</p>
             </div>
           </div>
         </div>
