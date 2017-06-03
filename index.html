@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jimmy Chen</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=latin" media="all">
+    <meta name="description" content="Jimmy Chen">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      nav .container ul {
+        border-bottom: 0px;
+      }
+
+      .nav-tabs> li> a {
+        border: 0px !important;
+        border-style: none !important;
+        border-radius: 0px !important;
+        background-color: transparent !important;
+        padding: 15px 15px !important;
+      }
+
+      .row-fluid {
+        border-bottom: 1px solid #dddddd;
+        display: table;
+        width: 100%;
+        padding: 20px 0;
+      }
+
+      .span1 {
+        width: 40%;
+        display: block;
+        min-height; 30px;
+        float: left;
+      }
+
+      .span2 {
+        margin-left: 0;
+        width: 23%;
+        float: left;
+      }
+
+      .span3 {
+        width: 70%;
+        float: left;
+        padding-top: 10px;
+        margin-left: 2.5%;
+      }
+
+      .span4 {
+        padding: 0;
+      }
+
+      .span4 li {
+        margin-bottom: 5px;
+      }
+
+      .contact {
+        padding: 30px 0px;
+        float: right;
+      }
+
+      ul.circle {
+        list-style-type: circle;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .icon-image {
+        max-height: 25px;
+        max-width: 25px;
+      }
+
+      #photography button.image-small {
+        padding: 0px;
+        border: 0px;
+        background-color: white;
+      }
+
+      #photography button.image-small img.image-small {
+        max-width: 300px;
+        max-height: 300px;
+        float: left;
+        margin: 10px 10px;
+      }
+
+      img.image-large {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      .modal-dialog {
+        position: relative;
+        top: 10%;
+        /*left: 10%;*/
+        min-width: 75%;
+        min-height: 75%;
+        max-width: 90%;
+        max-height: 90%;
+      }
+
+      .modal-content {
+        background-color: transparent;
+        box-shadow: 0 0 0;
+        -webkit-box-shadow: 0 0 0;
+        border: 0;
+      }
+
+      .close {
+        position: absolute;
+        float: none;
+        color: white;
+        opacity: .5;
+        font-size: 28px;
+        left: 3px;
+      }
+
+      .close:hover {
+        color: white;
+        opacity: .75;
+      }
+
+      button:focus {
+        outline: none;
+      }
+    </style>
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- single page app in bundle.js -->
+    <script src="/build/bundle.js"></script>
+  </body>
+</html>

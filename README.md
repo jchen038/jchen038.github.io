@@ -1,0 +1,1 @@
+Clone from [spa-github](https://github.com/rafrex/spa-github-pages)
